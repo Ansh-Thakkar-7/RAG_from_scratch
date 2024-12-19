@@ -1,1 +1,3 @@
 # RAG_from_scratch
+
+This Python implementation demonstrates a simple Retrieval-Augmented Generation (RAG) system. It uses cosine similarity to retrieve the most relevant document from a predefined corpus by comparing the user query with the documents. Tokenization, word frequency counting, and vector normalization are used to calculate similarity. Once the most relevant document is identified, it is passed along with the user query to a locally hosted LLAMA2 model using the Ollama API. The model generates a concise, context-aware response based on the query and the retrieved document, effectively combining traditional information retrieval with advanced natural language generation for personalized recommendations.
